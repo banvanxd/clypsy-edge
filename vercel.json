@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "https://fares-casinos-efficient-instance.trycloudflare.com/$1" }]
+}
