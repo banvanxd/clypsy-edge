@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Clypsy">
+  <defs>
+    <linearGradient id="gem" x1="18" y1="12" x2="48" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE7DC"/>
+      <stop offset="28%" stop-color="#FF8A71"/>
+      <stop offset="62%" stop-color="#FF007A"/>
+      <stop offset="100%" stop-color="#6A1BFF"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="8" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE7DC" stop-opacity="0.95"/>
+      <stop offset="48%" stop-color="#FF4D9A" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#7A00FF" stop-opacity="0.28"/>
+    </linearGradient>
+    <radialGradient id="spec" cx="32%" cy="28%" r="48%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.72"/>
+      <stop offset="46%" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0C0C0E"/>
+  <rect width="64" height="64" rx="16" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <circle cx="32" cy="33" r="22" stroke="url(#rim)" stroke-width="1.6"/>
+  <path d="M22 24h20l6 6v12l-6 6H22l-6-6V30z" fill="url(#gem)"/>
+  <path d="M22 24h20l-4 6H26z" fill="#fff" fill-opacity="0.38"/>
+  <path d="M22 24 16 30l4 6 6-6z" fill="#fff" fill-opacity="0.16"/>
+  <path d="M42 24l6 6-4 6-6-6z" fill="#1A0618" fill-opacity="0.18"/>
+  <path d="M26 30h12l4 6-4 6H26l-4-6z" fill="#1A0618" fill-opacity="0.2"/>
+  <path d="M22 24h20l6 6v12l-6 6H22l-6-6V30z" fill="url(#spec)"/>
+  <path d="M32 24v24" stroke="#fff" stroke-opacity="0.22" stroke-width="0.7"/>
+  <path d="M50.6 11.2 51.7 14.4 54.9 15.5 51.7 16.6 50.6 19.8 49.5 16.6 46.3 15.5 49.5 14.4Z" fill="#FFF6F2"/>
+</svg>
