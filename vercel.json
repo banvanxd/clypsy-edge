@@ -4,9 +4,9 @@
   "outputDirectory": "dist",
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://night-enb-quebec-post.trycloudflare.com/:path*" },
-    { "source": "/media/:path*", "destination": "https://night-enb-quebec-post.trycloudflare.com/media/:path*" },
-    { "source": "/health", "destination": "https://night-enb-quebec-post.trycloudflare.com/health" },
+    { "source": "/api/:path*", "destination": "https://paint-deaths-veterinary-sand.trycloudflare.com/:path*" },
+    { "source": "/media/:path*", "destination": "https://paint-deaths-veterinary-sand.trycloudflare.com/media/:path*" },
+    { "source": "/health", "destination": "https://paint-deaths-veterinary-sand.trycloudflare.com/health" },
     { "source": "/((?!assets/).*)", "destination": "/index.html" }
   ],
   "headers": [
