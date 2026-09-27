@@ -1,0 +1,1 @@
+function n(r,t){return`fanlyx_draft:${r}:${t}`}function e(r,t){if(!t)return null;try{const a=localStorage.getItem(n(r,t));return a?JSON.parse(a):null}catch{return null}}function c(r,t,a){if(t)try{localStorage.setItem(n(r,t),JSON.stringify(a))}catch{}}function l(r,t){if(t)try{localStorage.removeItem(n(r,t))}catch{}}export{l as c,e as l,c as s};
