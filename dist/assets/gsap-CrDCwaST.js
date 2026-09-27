@@ -1,0 +1,1 @@
+import{g as r,u as t}from"./gsap-DhAB9hmU.js";r.registerPlugin(t);function a(e){if(e)return!0;if(typeof window>"u")return!1;try{return window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch{return!1}}const i={from:{opacity:0,y:14},to:{opacity:1,y:0,duration:.42,ease:"power2.out"},stagger:.06};export{a as p,i as r};
