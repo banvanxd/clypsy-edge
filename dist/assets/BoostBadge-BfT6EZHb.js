@@ -1,1 +1,0 @@
-import{j as s}from"./react-BWuP5Jfh.js";import{u as n}from"./index-D2VgvhKE.js";import{m as e}from"./motion-1UNHcSnU.js";function p({label:o="Potenciado",className:a=""}){const{reduce:t,spring:i}=n();return s.jsx(e.span,{className:"fx-boost-badge "+a,initial:t?!1:{scale:.75,opacity:0},animate:{scale:1,opacity:1},transition:i("snappy"),children:o||"Potenciado"})}export{p as B};

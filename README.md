@@ -1,6 +1,7 @@
 # clypsy-edge
 
-Public hostname for the FanMua Telegram Mini App: https://clypsy-app.vercel.app (Vercel project `clypsy-app`).
+Public hostname for the FanMua Telegram Mini App: https://fanmua.com (Vercel project `clypsy-app`;
+`www.fanmua.com` 308-redirects to the apex, and https://clypsy-app.vercel.app keeps working as a fallback).
 
 - `dist/` is the production build of `apps/miniapp`. Vercel's CDN serves it directly, with SPA fallback to
   `index.html`. Hashed `/assets/*` are cached for a year (immutable). `index.html` is `no-cache`.

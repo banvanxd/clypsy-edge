@@ -1,0 +1,1 @@
+import{j as s}from"./react-BWuP5Jfh.js";function t({className:r=""}){return s.jsxs("div",{className:"fx-trust-strip "+r,role:"note",children:[s.jsx("span",{className:"fx-trust-dot","aria-hidden":!0}),s.jsx("span",{children:"Publicar es gratis · Muas solo si cobras digital · Presencial sin cobro del encuentro en app"})]})}export{t as S};
