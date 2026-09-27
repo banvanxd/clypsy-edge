@@ -1,0 +1,1 @@
+const o=["destacado","nuevo","hot","safe","18","tutorial","otro"],a={destacado:"Destacado",nuevo:"Nuevo",hot:"Hot",safe:"Safe",18:"+18",tutorial:"Tutorial",otro:"Otro"};function e(t){return typeof t=="string"&&o.includes(t)}function r(t){return t?e(t)?a[t]:t:""}export{o as S,a,e as i,r as s};
